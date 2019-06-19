@@ -1,4 +1,4 @@
-# @wix/wix-renovate
+# @wix/wix-renovate-bot
 
 **TODO:** add brief description of this service
 

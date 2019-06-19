@@ -1,6 +1,6 @@
 module.exports = context => {
   // load your app-specific configuration values
-  const { petriScopes } = context.config.load('wix-renovate');
+  const { petriScopes } = context.config.load('wix-renovate-bot');
 
   // return your app-specific context - an object which contains your domain singletons
   // (eg DB connections, kafka producers/consumers) shared by all your express, websocket and RPC services.
