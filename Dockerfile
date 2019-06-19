@@ -7,7 +7,7 @@ USER root
 # WORKDIR /usr/src/app/
 
 # Install Cron
-RUN mkdir /var/lib/apt/lists/partial
+RUN mkdir -p /var/lib/apt/lists/partial
 RUN apt-get update
 # RUN apt-get -y install cron
 
