@@ -5,7 +5,7 @@ MAINTAINER Artem Yavorsky <artemy@wix.com>
 
 # Install Cron
 # RUN mkdir /var/lib/apt/lists/partial
-RUN apt-get update
+# RUN apt-get update
 # RUN apt-get -y install cron
 
 # # Add crontab file in the cron directory
