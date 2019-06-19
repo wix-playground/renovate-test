@@ -1,11 +1,14 @@
 FROM docker-repo.wixpress.com/wix-bootstrap-onbuild:stable
 MAINTAINER Artem Yavorsky <artemy@wix.com>
 
+ENV DEBUG="wix:error:*,wix:info:*,wix:debug:*"
+USER root
+
 # WORKDIR /usr/src/app/
 
 # Install Cron
-# RUN mkdir /var/lib/apt/lists/partial
-# RUN apt-get update
+RUN mkdir /var/lib/apt/lists/partial
+RUN apt-get update
 # RUN apt-get -y install cron
 
 # # Add crontab file in the cron directory
