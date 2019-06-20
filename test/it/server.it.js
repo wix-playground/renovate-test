@@ -11,7 +11,7 @@ describe('API', () => {
 
     expect(response.data).to.deep.include({
       success: true,
-      payload: 'Hello world!',
+      payload: 'Renovate bot!',
       petriScopes: ['foo', 'bar'],
     });
   });
