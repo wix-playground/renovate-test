@@ -12,7 +12,7 @@ module.exports = (app, context) => {
   app.get('/', (req, res) => {
     res.json({
       success: true,
-      payload: 'Hello world!',
+      payload: 'Renovate bot!',
       petriScopes: context.petriScopes,
     });
   });
